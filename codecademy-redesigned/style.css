@@ -31,14 +31,6 @@ a:not(.button) {
   color: #F65A5B !important;
 }
 
-li::before {
-  content: "- ";
-}
-
-li {
-  padding-bottom: 0.5rem;
-}
-
 
 
 /*******************

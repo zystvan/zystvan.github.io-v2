@@ -236,28 +236,28 @@
 }
 @font-face {
 	font-family:"fcn-icon";
-	src:url(http://cdn-production.codecademy.com/assets/icons/CC-Francine-Icons-af4d2b2936d02ff33a02d9c65c9b3ff8.eot);
-	src:url(http://cdn-production.codecademy.com/assets/icons/CC-Francine-Icons.eot?#iefix) format("embedded-opentype"),url(http://cdn-production.codecademy.com/assets/icons/CC-Francine-Icons-3391a2835f641476fa6aabf11c9f08f8.woff) format("woff"),url(http://cdn-production.codecademy.com/assets/icons/CC-Francine-Icons-907ae415f0563e512ee84487c79f33fc.ttf) format("truetype"),url(http://cdn-production.codecademy.com/assets/icons/CC-Francine-Icons.svg?#fcn-icon) format("svg");
+	src:url(//cdn-production.codecademy.com/assets/icons/CC-Francine-Icons-af4d2b2936d02ff33a02d9c65c9b3ff8.eot);
+	src:url(//cdn-production.codecademy.com/assets/icons/CC-Francine-Icons.eot?#iefix) format("embedded-opentype"),url(//cdn-production.codecademy.com/assets/icons/CC-Francine-Icons-3391a2835f641476fa6aabf11c9f08f8.woff) format("woff"),url(//cdn-production.codecademy.com/assets/icons/CC-Francine-Icons-907ae415f0563e512ee84487c79f33fc.ttf) format("truetype"),url(//cdn-production.codecademy.com/assets/icons/CC-Francine-Icons.svg?#fcn-icon) format("svg");
 	font-weight:normal;
 	font-style:normal
 }
 @font-face {
 	font-family:"new-cc-icon";
-	src:url(http://cdn-production.codecademy.com/assets/icons/new-cc-icons-v2-331d848e722b0076fedcbe37bf295b7b.eot);
-	src:url(http://cdn-production.codecademy.com/assets/icons/new-cc-icons-v2.eot?#iefix) format("embedded-opentype"),url(http://cdn-production.codecademy.com/assets/icons/new-cc-icons-v2-937366e4b4c7013452817c872f8d2857.woff) format("woff"),url(http://cdn-production.codecademy.com/assets/icons/new-cc-icons-v2-d39546580a1eb47bd84e423745b473d6.ttf) format("truetype"),url(http://cdn-production.codecademy.com/assets/icons/new-cc-icons-v2.svg?#new-cc-icon) format("svg");
+	src:url(//cdn-production.codecademy.com/assets/icons/new-cc-icons-v2-331d848e722b0076fedcbe37bf295b7b.eot);
+	src:url(//cdn-production.codecademy.com/assets/icons/new-cc-icons-v2.eot?#iefix) format("embedded-opentype"),url(//cdn-production.codecademy.com/assets/icons/new-cc-icons-v2-937366e4b4c7013452817c872f8d2857.woff) format("woff"),url(//cdn-production.codecademy.com/assets/icons/new-cc-icons-v2-d39546580a1eb47bd84e423745b473d6.ttf) format("truetype"),url(//cdn-production.codecademy.com/assets/icons/new-cc-icons-v2.svg?#new-cc-icon) format("svg");
 	font-weight:normal;
 	font-style:normal
 }
 @font-face {
 	font-family:"cc-symbol";
-	src:url(http://cdn-production.codecademy.com/assets/icons/cc-symbols-775c56df138654892a0353c3adcd327f.eot);
-	src:url(http://cdn-production.codecademy.com/assets/icons/cc-symbols.eot?#iefix) format("embedded-opentype"),url(http://cdn-production.codecademy.com/assets/icons/cc-symbols-a97996c91f5cd1345fde59475c313da4.woff) format("woff"),url(http://cdn-production.codecademy.com/assets/icons/cc-symbols-559b0729d9a56d6c46ee5c5355371bb2.ttf) format("truetype"),url(http://cdn-production.codecademy.com/assets/icons/cc-symbols.svg?#cc-symbol) format("svg");
+	src:url(//cdn-production.codecademy.com/assets/icons/cc-symbols-775c56df138654892a0353c3adcd327f.eot);
+	src:url(//cdn-production.codecademy.com/assets/icons/cc-symbols.eot?#iefix) format("embedded-opentype"),url(//cdn-production.codecademy.com/assets/icons/cc-symbols-a97996c91f5cd1345fde59475c313da4.woff) format("woff"),url(//cdn-production.codecademy.com/assets/icons/cc-symbols-559b0729d9a56d6c46ee5c5355371bb2.ttf) format("truetype"),url(//cdn-production.codecademy.com/assets/icons/cc-symbols.svg?#cc-symbol) format("svg");
 	font-weight:normal;
 	font-style:normal
 }
 @font-face {
 	font-family:"M+1m";
-	src:url(http://cdn-production.codecademy.com/assets/m+1m/mplus-1m-regular-2f381b18f5b800c6dae47c5c2d8c462f.ttf) format("truetype");
+	src:url(//cdn-production.codecademy.com/assets/m+1m/mplus-1m-regular-2f381b18f5b800c6dae47c5c2d8c462f.ttf) format("truetype");
 	font-style:normal;
 	font-weight:normal;
 	text-rendering:optimizeLegibility
@@ -355,20 +355,20 @@
 .color-scheme--darkgrey .field.field--text input[type="text"],.color-scheme--darkgrey .field.field--text input[type="password"],.color-scheme--darkgrey .field.field--text textarea {
 	color:#204056
 }
-.color-scheme--mint,.card--link:hover {
+.color-scheme--mint,.card--link:hover, .card--link:focus, .card--link:active {
 	color:#fff;
 	background-color:#34b3a0
 }
-.color-scheme--mint .new-cc-icon,.card--link:hover .new-cc-icon,.color-scheme--mint .cc-symbol,.card--link:hover .cc-symbol,.color-scheme--mint .cc-achievement,.card--link:hover .cc-achievement {
+.color-scheme--mint .new-cc-icon,.card--link:hover .new-cc-icon,.card--link:focus .new-cc-icon,.card--link:active .new-cc-icon,.color-scheme--mint .cc-symbol,.card--link:hover .cc-symbol,.color-scheme--mint .cc-achievement,.card--link:hover .cc-achievement, .card--link:focus .new-cc-icon,.color-scheme--mint .cc-symbol,.card--link:focus .cc-symbol,.color-scheme--mint .cc-achievement,.card--link:focus .cc-achievement, .card--link:active .new-cc-icon,.color-scheme--mint .cc-symbol,.card--link:active .cc-symbol,.color-scheme--mint .cc-achievement,.card--link:active .cc-achievement {
+	color:#fff;
+}
+.color-scheme--mint small .new-cc-icon,.card--link:hover small .new-cc-icon, .card--link:focus small .new-cc-icon.card--link:active small .new-cc-icon,.color-scheme--mint small .cc-achievement,.card--link:hover small .cc-achievement, .card--link:focus small .cc-achievement, .card--link:active small .cc-achievement {
 	color:#fff
 }
-.color-scheme--mint small .new-cc-icon,.card--link:hover small .new-cc-icon,.color-scheme--mint small .cc-achievement,.card--link:hover small .cc-achievement {
+.color-scheme--mint p,.card--link:hover p, .card--link:focus p, .card--link:active p, .color-scheme--mint small,.card--link:hover small,.card--link:focus small,.card--link:active small,.color-scheme--mint input:not([type="submit"]),.card--link:hover input:not([type="submit"]),.card--link:focus input:not([type="submit"]),.card--link:active input:not([type="submit"]),.color-scheme--mint ul,.card--link:hover ul,.card--link:focus ul,.card--link:active ul,.color-scheme--mint li,.card--link:hover li,.card--link:focus li,.card--link:active li {
 	color:#fff
 }
-.color-scheme--mint p,.card--link:hover p,.color-scheme--mint small,.card--link:hover small,.color-scheme--mint input:not([type="submit"]),.card--link:hover input:not([type="submit"]),.color-scheme--mint ul,.card--link:hover ul,.color-scheme--mint li,.card--link:hover li {
-	color:#fff
-}
-.color-scheme--mint h1,.card--link:hover h1,.color-scheme--mint h2,.card--link:hover h2,.color-scheme--mint h3,.card--link:hover h3,.color-scheme--mint h4,.card--link:hover h4,.color-scheme--mint h5,.card--link:hover h5,.color-scheme--mint h6,.card--link:hover h6 {
+.color-scheme--mint h1,.card--link:hover h1,.card--link:focus h1,.card--link:active h1,.color-scheme--mint h2,.card--link:hover h2,.card--link:focus h2,.card--link:active h2,.color-scheme--mint h3,.card--link:hover h3,.card--link:focus h3,.card--link:active h3,.color-scheme--mint h4,.card--link:hover h4,.card--link:focus h4,.card--link:active h4,.color-scheme--mint h5,.card--link:hover h5,.card--link:focus h5,.card--link:active h5,.color-scheme--mint h6,.card--link:hover h6, .card--link:focus h6, .card--link:active h6 {
 	color:#fff
 }
 .color-scheme--mint td,.card--link:hover td,.color-scheme--mint th,.card--link:hover th {
@@ -457,7 +457,7 @@
 .color-scheme--darkgrey .color--primary {
 	color:#e6e7e8 !important
 }
-.color-scheme--mint .color--primary,.card--link:hover .color--primary {
+.color-scheme--mint .color--primary,.card--link:hover .color--primary, .card--link:focus .color--primary, .card--link:active .color--primary {
 	color:#34b3a0 !important
 }
 .color-scheme--blue .color--primary {
@@ -1316,7 +1316,7 @@ a.button.button--card-action:active,.link-area:active a.button.button--card-acti
 	margin-right:1rem !important
 }
 .button--iphone {
-	background:url(http://cdn-production.codecademy.com/assets/schools/hour_of_code/download_iphone_app_button-5f1e734e038fb0b51a8381271936a8d7.png);
+	background:url(//cdn-production.codecademy.com/assets/schools/hour_of_code/download_iphone_app_button-5f1e734e038fb0b51a8381271936a8d7.png);
 	display:inline-block;
 	width:160px;
 	height:48px;

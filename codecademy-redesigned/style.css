@@ -14,7 +14,7 @@ General
 
 body {
   font-family: 'Oxygen', sans-serif;
-  line-height: 3 !important;
+  cursor: default;
 }
 
 code {
@@ -61,6 +61,14 @@ Intro
 
 
 /*******************
-Intro
+Contributors
 *******************/
 
+.card--link:hover .new-cc-icon, .card--link:focus .new-cc-icon, .card--link:active .new-cc-icon {
+  color: white !important
+}
+
+/*
+.contributors li h3 {
+  display: inline-block;
+}*/

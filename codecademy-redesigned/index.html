@@ -8,15 +8,12 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oxygen:300,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oxygen+Mono">
     <link rel="stylesheet" href="core.min.css">
+    <link rel="stylesheet" href="show.css">
     <link rel="stylesheet" href="style.css">
-    
-    <script>
-      alert("this webpage is just a draft. please ignore it for now")
-    </script>
   </head>
   <body>
-    <article class="fit-full color-scheme--grey top-section">
-      <article class="fit-fixed">
+    <div class="fit-full color-scheme--grey top-section">
+      <div class="fit-fixed">
         <div class="grid-row padding-top--2">
           <div class="grid-col-12 grid-col--center grid-col--align-center">
             <h1>Codecademy Redesigned</h1>
@@ -28,18 +25,18 @@
             <img alt="" src="Redesigned%20forums.png">
           </div>
           <div class="grid-col-4 right-side">
-              <h4>Restyled Q&amp;A forums, fixed bugs, and new features.</h4>
-              
-              <a href="javascript:void(0);" class="button button--primary">Install for Chrome</a>
-              <a href="javascript:void(0);" class="button button--secondary">Install for Firefox</a>
+            <h4>Restyled Q&amp;A forums, fixed bugs, and new features.</h4>
+
+            <a href="javascript:void(0);" class="button button--primary" id="chrome-install-button">Install for Chrome</a>
+            <a href="javascript:void(0);" class="button button--secondary" id="ff-install-button">Install for Firefox</a>
           </div>
         </div>
-      </article>
-    </article>
+      </div>
+    </div>
     
     <div class="color-scheme--white learn-more">
       <div class="fit-fixed grid-row padding-top--3 padding-bottom--3 grid-row-no-collapse">
-        <div class="grid-col-10 padding-top--5 description">
+        <div class="grid-col-10 description">
           <h2>What does it do?</h2>
           <p>
             This extension combines several previous extensions and completely revolutionizes your experience on Codecademy. 
@@ -59,11 +56,154 @@
       </div>
     </div>
   
-    <div class="color-scheme--gray todo-list">
+    <div class="fit-full color-scheme--grey">
+      <div class="fit-fixed">
+        <div class="grid-row padding-top--3 padding-bottom--3">
+          <div class="grid-col-12 grid-col--center grid-col--align-center padding-bottom--1">
+            <h2>Contributors</h2>
+          </div>
+        </div>
+
+        <div class="grid-row padding-bottom--3">
+          <div class="grid-col-4 grid-col--no--padding grid-col--no-margin">
+            <div class="card card--link color-scheme--white">
+              <div class="grid-row card__info">
+                <span>
+                  <div class="avatar avatar--large">
+                    <img alt="Zeke Y" src="https://secure.gravatar.com/avatar/c85e0919bd63204a9e3331c426f406e4?s=200">
+                  </div>
+                </span>
+                <div exclude="phone" class="card__headings">
+                  <h5>Zeke Y</h5>
+                  <p class="story_card__sub-heading">
+                    <span class="new-cc-icon color--secondary icon-marker"></span> Virginia, US
+                  </p>
+                </div>
+                
+                <div exclude="desktop tablet" class="grid-col-4">
+                  <div class="card__headings">
+                    <h5 class="text--ellipsis">Zeke Y</h5>
+                    <p class="story_card__sub-heading">
+                      <span class="new-cc-icon color--secondary icon-marker"></span> Virginia, US
+                    </p>
+                  </div>
+                </div>
+                
+                <div class="grid-row card__text">
+                  <div class="grid-col-12">
+                    description here
+                  </div>
+                </div>
+              </div>
+              
+              <a href="http://zystvan.com" class="link--target"></a>
+            </div>
+          </div>
+
+          <div class="grid-col-4 grid-col--no--padding grid-col--no-margin">
+            <div class="card card--link color-scheme--white">
+              <div class="grid-row card__info">
+                <span>
+                  <div class="avatar avatar--large">
+                    <img alt="Alex C." src="https://avatars0.githubusercontent.com/u/3769586">
+                  </div>
+                </span>
+
+                <div exclude="phone" class="card__headings">
+                  <h5>Alex C.</h5>
+                  <p class="story_card__sub-heading">
+                    <span class="new-cc-icon color--secondary icon-marker"></span> Location
+                  </p>
+                </div>
+
+                <div exclude="desktop tablet" class="grid-col-4">
+                  <div class="card__headings">
+                    <h5 class="text--ellipsis">Alex C.</h5>
+                    <p class="story_card__sub-heading">
+                      <span class="new-cc-icon color--secondary icon-marker"></span> Location
+                    </p>
+                  </div>
+                </div>
+
+                <div class="grid-row card__text">
+                  <div class="grid-col-12">
+                    Blah text about person
+                  </div>
+                </div>
+              </div>
+
+              <a href="javascript:void(0);" class="link--target"></a>
+            </div>
+          </div>
+
+          <div class="grid-col-4 grid-col--no--padding grid-col--no-margin">
+            <div class="card color-scheme--white">
+              <div class="grid-row card__info">
+                <span>
+                  <div class="avatar avatar--large">
+                    <span class="new-cc-icon color--secondary icon-person"></span>
+                  </div>
+                </span>
+
+                <div exclude="phone" class="card__headings">
+                  <h5>You!</h5>
+                  <p class="story_card__sub-heading">
+                    <span class="new-cc-icon color--secondary icon-marker"></span> Earth, hopefully
+                  </p>
+                </div>
+
+                <div exclude="desktop tablet" class="grid-col-4">
+                  <div class="card__headings">
+                    <h5 class="text--ellipsis">You!</h5>
+                    <p class="story_card__sub-heading">
+                      <span class="new-cc-icon color--secondary icon-marker"></span> Earth, hopefully
+                    </p>
+                  </div>
+                </div>
+
+                <div class="grid-row card__text">
+                  <div class="grid-col-12">
+                    The code is on GitHub; what are you waiting for? Start working on the stuff in the todo list below!
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+<!--
+    <div class="color-scheme--gray">
       <div class="fit-fixed grid-row padding-top--3 padding-bottom--3 grid-row-no-collapse">
-        <div class="grid-col-10 padding-top--5 todo">
+        <div class="grid-col-10 contact">
+          <h2>Contact</h2>
+          <p>You can contact us through the <a href="javascript:void(0);">GitHub repositories</a>, or you can contact the developers individually:</p>
+          <ul>
+            <li>
+              <h3>Zeke Y</h3>
+              <ul>
+                <li><a href="javascript:void(0);">Twitter</a></li>
+                <li><a href="javascript:void(0);">Email</a></li>
+              </ul>
+            </li>
+            <li>
+              <h3>Alex C.</h3>
+              <ul>
+                <li><a href="javascript:void(0);">Email</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+-->
+  
+    <div class="color-scheme--white todo-list">
+      <div class="fit-fixed grid-row padding-top--3 padding-bottom--3 grid-row-no-collapse">
+        <div class="grid-col-10 todo">
           <h2>Todo</h2>
-          <p>Would you like to help make Codecademy Redesigned even better? Fork the <a href="javascript:void(0);">GitHub repository</a>, get cracking on some of the stuff below, and submit your pull request! Or, you can contact us &lt;somehow&gt; with your feedback</p>
+          <p>Would you like to help make Codecademy Redesigned even better? Fork the <a href="javascript:void(0);">GitHub repository</a>, start working on some of the stuff below, and submit your pull request!</p>
           <ul>
             <li>Change the <code>background-color</code> on the forums to <code>#F1F2F2</code> from <code>#F5F5F5</code></li>
           </ul>
@@ -71,10 +211,28 @@
       </div>
     </div>
   
-    <footer class="color-scheme--white footer">
+    <footer class="color-scheme--gray footer">
       <div class="fit-fixed grid-row padding-top--3 padding-bottom--3 grid-row-no-collapse">
         &copy; Copyright 2015 Zeke Y and Alex C.
       </div>
     </footer>
+  
+    <script>
+//      alert("This page is currently in development, please ignore it");
+      
+      if (navigator.userAgent.toLowerCase().indexOf("firefox") > -1) {
+        var ffInstallButton = document.querySelector('#ff-install-button'),
+            chromeInstallButton = document.querySelector('#chrome-install-button'),
+            ffInstallButtonClone = ffInstallButton.cloneNode();
+        
+        ffInstallButton.parentNode.removeChild(ffInstallButton);
+        document.querySelector('.right-side').insertBefore(ffInstallButtonClone, chromeInstallButton);
+        ffInstallButtonClone.textContent = 'Install for Firefox';
+        ffInstallButtonClone.classList.remove("button--secondary");
+        ffInstallButtonClone.classList.add("button--primary");
+        chromeInstallButton.classList.remove("button--primary");
+        chromeInstallButton.classList.add("button--secondary");
+      }
+    </script>
   </body>
 </html>

@@ -1,0 +1,66 @@
+/*******************
+Colors:
+
+Red: #F65A5B
+Green: #34B3A0
+Blue: #204056
+*******************/
+
+
+
+/*******************
+General
+*******************/
+
+body {
+  font-family: 'Oxygen', sans-serif;
+  line-height: 3 !important;
+}
+
+code {
+  display: inline-block;
+  color: #4A4A4C;
+  background-color: #E4E6E6;
+  font-size: 0.9em;
+  line-height: 1.54688em;
+  font-family: 'Oxygen Mono', monospace;
+  padding: 0.1125em;
+}
+
+a:not(.button) {
+  color: #F65A5B !important;
+}
+
+li::before {
+  content: "- ";
+}
+
+li {
+  padding-bottom: 0.5rem;
+}
+
+
+
+/*******************
+Intro
+*******************/
+
+.top-section .right-side {
+  text-align: right;
+}
+
+.top-section h4 {
+  color: #959696;
+  text-transform: uppercase;
+}
+
+.top-section .button {
+  width: 180px !important;
+}
+
+
+
+/*******************
+Intro
+*******************/
+

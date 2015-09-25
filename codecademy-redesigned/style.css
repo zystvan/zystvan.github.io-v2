@@ -60,7 +60,11 @@ Contributors
   color: white !important
 }
 
-/*
-.contributors li h3 {
-  display: inline-block;
-}*/
+.card .creator-badge::before {
+  content: "Dev";
+  position: relative;
+  bottom: 8px;
+  color: #F65A5B;
+  text-transform: uppercase;
+  font-size: 14px;
+}

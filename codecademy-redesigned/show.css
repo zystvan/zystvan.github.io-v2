@@ -1,263 +1,31 @@
-@-webkit-keyframes blinker {
-	from {
-		opacity:1.0
-	}
-	to {
-		opacity:0.0
-	}
-}
-@keyframes blinker {
-	from {
-		opacity:1.0
-	}
-	to {
-		opacity:0.0
-	}
-}
-@-webkit-keyframes ring {
-	0% {
-		-webkit-transform:rotate(0);
-		transform:rotate(0)
-	}
-	2% {
-		-webkit-transform:rotate(30deg);
-		transform:rotate(30deg)
-	}
-	6% {
-		-webkit-transform:rotate(-28deg);
-		transform:rotate(-28deg)
-	}
-	10% {
-		-webkit-transform:rotate(34deg);
-		transform:rotate(34deg)
-	}
-	14% {
-		-webkit-transform:rotate(-32deg);
-		transform:rotate(-32deg)
-	}
-	18% {
-		-webkit-transform:rotate(30deg);
-		transform:rotate(30deg)
-	}
-	22% {
-		-webkit-transform:rotate(-28deg);
-		transform:rotate(-28deg)
-	}
-	26% {
-		-webkit-transform:rotate(26deg);
-		transform:rotate(26deg)
-	}
-	30% {
-		-webkit-transform:rotate(-24deg);
-		transform:rotate(-24deg)
-	}
-	34% {
-		-webkit-transform:rotate(22deg);
-		transform:rotate(22deg)
-	}
-	38% {
-		-webkit-transform:rotate(-20deg);
-		transform:rotate(-20deg)
-	}
-	42% {
-		-webkit-transform:rotate(18deg);
-		transform:rotate(18deg)
-	}
-	46% {
-		-webkit-transform:rotate(-16deg);
-		transform:rotate(-16deg)
-	}
-	50% {
-		-webkit-transform:rotate(14deg);
-		transform:rotate(14deg)
-	}
-	54% {
-		-webkit-transform:rotate(-12deg);
-		transform:rotate(-12deg)
-	}
-	58% {
-		-webkit-transform:rotate(10deg);
-		transform:rotate(10deg)
-	}
-	62% {
-		-webkit-transform:rotate(-8deg);
-		transform:rotate(-8deg)
-	}
-	66% {
-		-webkit-transform:rotate(6deg);
-		transform:rotate(6deg)
-	}
-	70% {
-		-webkit-transform:rotate(-4deg);
-		transform:rotate(-4deg)
-	}
-	74% {
-		-webkit-transform:rotate(2deg);
-		transform:rotate(2deg)
-	}
-	78% {
-		-webkit-transform:rotate(-1deg);
-		transform:rotate(-1deg)
-	}
-	82% {
-		-webkit-transform:rotate(1deg);
-		transform:rotate(1deg)
-	}
-	86% {
-		-webkit-transform:rotate(0);
-		transform:rotate(0)
-	}
-	100% {
-		-webkit-transform:rotate(0);
-		transform:rotate(0)
-	}
-}
-@keyframes ring {
-	0% {
-		-webkit-transform:rotate(0);
-		transform:rotate(0)
-	}
-	2% {
-		-webkit-transform:rotate(30deg);
-		transform:rotate(30deg)
-	}
-	6% {
-		-webkit-transform:rotate(-28deg);
-		transform:rotate(-28deg)
-	}
-	10% {
-		-webkit-transform:rotate(34deg);
-		transform:rotate(34deg)
-	}
-	14% {
-		-webkit-transform:rotate(-32deg);
-		transform:rotate(-32deg)
-	}
-	18% {
-		-webkit-transform:rotate(30deg);
-		transform:rotate(30deg)
-	}
-	22% {
-		-webkit-transform:rotate(-28deg);
-		transform:rotate(-28deg)
-	}
-	26% {
-		-webkit-transform:rotate(26deg);
-		transform:rotate(26deg)
-	}
-	30% {
-		-webkit-transform:rotate(-24deg);
-		transform:rotate(-24deg)
-	}
-	34% {
-		-webkit-transform:rotate(22deg);
-		transform:rotate(22deg)
-	}
-	38% {
-		-webkit-transform:rotate(-20deg);
-		transform:rotate(-20deg)
-	}
-	42% {
-		-webkit-transform:rotate(18deg);
-		transform:rotate(18deg)
-	}
-	46% {
-		-webkit-transform:rotate(-16deg);
-		transform:rotate(-16deg)
-	}
-	50% {
-		-webkit-transform:rotate(14deg);
-		transform:rotate(14deg)
-	}
-	54% {
-		-webkit-transform:rotate(-12deg);
-		transform:rotate(-12deg)
-	}
-	58% {
-		-webkit-transform:rotate(10deg);
-		transform:rotate(10deg)
-	}
-	62% {
-		-webkit-transform:rotate(-8deg);
-		transform:rotate(-8deg)
-	}
-	66% {
-		-webkit-transform:rotate(6deg);
-		transform:rotate(6deg)
-	}
-	70% {
-		-webkit-transform:rotate(-4deg);
-		transform:rotate(-4deg)
-	}
-	74% {
-		-webkit-transform:rotate(2deg);
-		transform:rotate(2deg)
-	}
-	78% {
-		-webkit-transform:rotate(-1deg);
-		transform:rotate(-1deg)
-	}
-	82% {
-		-webkit-transform:rotate(1deg);
-		transform:rotate(1deg)
-	}
-	86% {
-		-webkit-transform:rotate(0);
-		transform:rotate(0)
-	}
-	100% {
-		-webkit-transform:rotate(0);
-		transform:rotate(0)
-	}
-}
-@-webkit-keyframes spinner {
-	from {
-		-webkit-transform:rotate(0deg);
-		transform:rotate(0deg)
-	}
-	to {
-		-webkit-transform:rotate(360deg);
-		transform:rotate(360deg)
-	}
-}
-@keyframes spinner {
-	from {
-		-webkit-transform:rotate(0deg);
-		transform:rotate(0deg)
-	}
-	to {
-		-webkit-transform:rotate(360deg);
-		transform:rotate(360deg)
-	}
-}
 .card__sub-heading {
 	font-size:16px;
 	line-height:22px
 }
 @font-face {
 	font-family:"fcn-icon";
-	src:url(//cdn-production.codecademy.com/assets/icons/CC-Francine-Icons-af4d2b2936d02ff33a02d9c65c9b3ff8.eot);
-	src:url(//cdn-production.codecademy.com/assets/icons/CC-Francine-Icons.eot?#iefix) format("embedded-opentype"),url(//cdn-production.codecademy.com/assets/icons/CC-Francine-Icons-3391a2835f641476fa6aabf11c9f08f8.woff) format("woff"),url(//cdn-production.codecademy.com/assets/icons/CC-Francine-Icons-907ae415f0563e512ee84487c79f33fc.ttf) format("truetype"),url(//cdn-production.codecademy.com/assets/icons/CC-Francine-Icons.svg?#fcn-icon) format("svg");
+	src:url(http://cdn-production.codecademy.com/assets/icons/CC-Francine-Icons-af4d2b2936d02ff33a02d9c65c9b3ff8.eot);
+	src:url(http://cdn-production.codecademy.com/assets/icons/CC-Francine-Icons.eot?#iefix) format("embedded-opentype"),url(http://cdn-production.codecademy.com/assets/icons/CC-Francine-Icons-3391a2835f641476fa6aabf11c9f08f8.woff) format("woff"),url(http://cdn-production.codecademy.com/assets/icons/CC-Francine-Icons-907ae415f0563e512ee84487c79f33fc.ttf) format("truetype"),url(http://cdn-production.codecademy.com/assets/icons/CC-Francine-Icons.svg?#fcn-icon) format("svg");
 	font-weight:normal;
 	font-style:normal
 }
 @font-face {
 	font-family:"new-cc-icon";
-	src:url(//cdn-production.codecademy.com/assets/icons/new-cc-icons-v2-331d848e722b0076fedcbe37bf295b7b.eot);
-	src:url(//cdn-production.codecademy.com/assets/icons/new-cc-icons-v2.eot?#iefix) format("embedded-opentype"),url(//cdn-production.codecademy.com/assets/icons/new-cc-icons-v2-937366e4b4c7013452817c872f8d2857.woff) format("woff"),url(//cdn-production.codecademy.com/assets/icons/new-cc-icons-v2-d39546580a1eb47bd84e423745b473d6.ttf) format("truetype"),url(//cdn-production.codecademy.com/assets/icons/new-cc-icons-v2.svg?#new-cc-icon) format("svg");
+	src:url(http://cdn-production.codecademy.com/assets/icons/new-cc-icons-v2-331d848e722b0076fedcbe37bf295b7b.eot);
+	src:url(http://cdn-production.codecademy.com/assets/icons/new-cc-icons-v2.eot?#iefix) format("embedded-opentype"),url(http://cdn-production.codecademy.com/assets/icons/new-cc-icons-v2-937366e4b4c7013452817c872f8d2857.woff) format("woff"),url(http://cdn-production.codecademy.com/assets/icons/new-cc-icons-v2-d39546580a1eb47bd84e423745b473d6.ttf) format("truetype"),url(http://cdn-production.codecademy.com/assets/icons/new-cc-icons-v2.svg?#new-cc-icon) format("svg");
 	font-weight:normal;
 	font-style:normal
 }
 @font-face {
 	font-family:"cc-symbol";
-	src:url(//cdn-production.codecademy.com/assets/icons/cc-symbols-775c56df138654892a0353c3adcd327f.eot);
-	src:url(//cdn-production.codecademy.com/assets/icons/cc-symbols.eot?#iefix) format("embedded-opentype"),url(//cdn-production.codecademy.com/assets/icons/cc-symbols-a97996c91f5cd1345fde59475c313da4.woff) format("woff"),url(//cdn-production.codecademy.com/assets/icons/cc-symbols-559b0729d9a56d6c46ee5c5355371bb2.ttf) format("truetype"),url(//cdn-production.codecademy.com/assets/icons/cc-symbols.svg?#cc-symbol) format("svg");
+	src:url(http://cdn-production.codecademy.com/assets/icons/cc-symbols-775c56df138654892a0353c3adcd327f.eot);
+	src:url(http://cdn-production.codecademy.com/assets/icons/cc-symbols.eot?#iefix) format("embedded-opentype"),url(http://cdn-production.codecademy.com/assets/icons/cc-symbols-a97996c91f5cd1345fde59475c313da4.woff) format("woff"),url(http://cdn-production.codecademy.com/assets/icons/cc-symbols-559b0729d9a56d6c46ee5c5355371bb2.ttf) format("truetype"),url(http://cdn-production.codecademy.com/assets/icons/cc-symbols.svg?#cc-symbol) format("svg");
 	font-weight:normal;
 	font-style:normal
 }
 @font-face {
 	font-family:"M+1m";
-	src:url(//cdn-production.codecademy.com/assets/m+1m/mplus-1m-regular-2f381b18f5b800c6dae47c5c2d8c462f.ttf) format("truetype");
+	src:url(http://cdn-production.codecademy.com/assets/m+1m/mplus-1m-regular-2f381b18f5b800c6dae47c5c2d8c462f.ttf) format("truetype");
 	font-style:normal;
 	font-weight:normal;
 	text-rendering:optimizeLegibility
@@ -1316,7 +1084,7 @@ a.button.button--card-action:active,.link-area:active a.button.button--card-acti
 	margin-right:1rem !important
 }
 .button--iphone {
-	background:url(//cdn-production.codecademy.com/assets/schools/hour_of_code/download_iphone_app_button-5f1e734e038fb0b51a8381271936a8d7.png);
+	background:url(http://cdn-production.codecademy.com/assets/schools/hour_of_code/download_iphone_app_button-5f1e734e038fb0b51a8381271936a8d7.png);
 	display:inline-block;
 	width:160px;
 	height:48px;

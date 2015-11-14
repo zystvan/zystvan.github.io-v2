@@ -7,8 +7,8 @@
     
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oxygen:300,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oxygen+Mono">
-    <link rel="stylesheet" href="codecademy.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/codecademy.min.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <div class="fit-full color-scheme--grey top-section">
@@ -21,7 +21,7 @@
         
         <div class="grid-row padding-top--3 grid-row-no-collapse">
           <div class="grid-col-8 grid-col--no-padding screen-col">
-            <img alt="" src="Redesigned%20forums.png">
+            <img alt="" src="img/redesigned-forums.png">
           </div>
           <div class="grid-col-4 right-side">
             <h4>Fixed bugs, new features, and restyled Q&amp;A forums.</h4>
@@ -39,7 +39,8 @@
           <h2>What does it do?</h2>
             <h5>This extension combines several previous extensions and completely revolutionizes your experience on Codecademy.</h5>
             <ul>
-              <li>Restyles the Q&amp;A Forums, making them easier on the eyes with a slightly darker background, and bolder colors</li>
+              <li>Adds in a "canned response" feature to the Forums, letting you avoid typing the exact same thing over and over, or hunt up an old post to copy/paste from it</li>
+              <li>Restyles the Forums, making them easier on the eyes with a slightly darker background and bolder colors</li>
               <li>Adds a link in the footer to a GitHub repository containing old posts saved from Groups, including many useful tutorials.</li>
               <li>Updates the Profile Page, adding 'points today', 'best points day', and 'best day streak' back into the profile.</li>
             </ul>
@@ -210,7 +211,7 @@
           <h2>Todo</h2>
           <p>Would you like to help make Codecademy Redesigned even better? Fork the GitHub repository (<a href="https://github.com/A-J-C/Codecademy-Redesign-NEW-Post-Groups-">Chrome</a>/<a href="https://github.com/Zystvan/codecademy-redesigned-firefox">Firefox</a>), start working on some of the stuff below, and submit your pull request!</p>
           <ul>
-            <li>[In progress] Implement "canned responses" with <code>localStorage</code> (ideally they would be saved to the account across computers, but that doesn't seem possible right now. If it is, let us know!)</li>
+            <li>Add the option to edit or delete a Canned Response</li>
           </ul>
         </div>
       </div>
@@ -218,7 +219,7 @@
   
     <footer class="color-scheme--gray footer">
       <div class="fit-fixed grid-row padding-top--3 padding-bottom--3 grid-row-no-collapse">
-        &copy; Copyright 2015. Website made by <a href="http://zystvan.com">Zeke Y</a>
+        &copy; Copyright 2015. Website made by <a href="http://zystvan.com">Zeke Y</a> with help from <a href="https://www.codecademy.com">Codecademy</a>
       </div>
     </footer>
   
@@ -236,8 +237,6 @@
         chromeInstallButton.classList.remove("button--primary");
         chromeInstallButton.classList.add("button--secondary");
       }
-      
-//      alert("This page is currently in development, please ignore it");
     </script>
   </body>
 </html>

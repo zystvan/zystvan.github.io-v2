@@ -220,8 +220,10 @@
         &copy; Copyright 2015. Website made by <a href="http://zystvan.com">Zeke Y</a> with help from <a href="https://www.codecademy.com">Codecademy</a>
       </div>
     </footer>
-  
+    
     <script>
+      // move the buttons around depending on user agent
+      // so they always get the one for their browser on top
       if (navigator.userAgent.toLowerCase().indexOf("firefox") > -1) {
         var ffInstallButton = document.querySelector('#ff-install-button'),
             chromeInstallButton = document.querySelector('#chrome-install-button'),
@@ -236,5 +238,9 @@
         chromeInstallButton.classList.add("button--secondary");
       }
     </script>
+    
+    <!-- W3Counter tracking code -->
+    <script src="https://www.w3counter.com/tracker.js"></script>
+    <script>w3counter(97043);</script>
   </body>
 </html>

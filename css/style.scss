@@ -44,7 +44,7 @@ $end-font-stack: 'Aleo', serif;
 
 
 /********************
-General
+Styles
 ********************/
 
 * {
@@ -52,12 +52,14 @@ General
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-weight: bold;
 }
 
 body {
   background-color: #FAFAFA;
   font-family: $end-font-stack;
   font-size: 16px;
+//  font-size: 18px;
   cursor: default;
 }
 
@@ -145,8 +147,9 @@ ul {
   margin-left: 25vw;
   
   li {
-    line-height: 1.5;
     text-align: left;
+//    font-weight: 600;
+    line-height: 1.5;
     list-style: none;
   }
 }
